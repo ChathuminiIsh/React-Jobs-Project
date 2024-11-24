@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    // "incremental": true,                              /* Enable incremental compilation. */
+    // "composite": true,                                /* Enable constraints for composite projects. */
+    // "tsBuildInfoFile": "./.tsbuildinfo",              /* Path for incremental build info. */
+
+    /* Language and Environment */
+    "target": "es5",                                    /* Set the JavaScript version for emitted code. "es5" is commonly used for compatibility. */
+    "lib": ["dom", "esnext"],                           /* Include libraries for DOM and modern JavaScript. */
+    "jsx": "react-jsx",                                 /* Use the new JSX transform in React 17 and later. */
+    "jsxImportSource": "react",                         /* Import JSX functions from the React package. */
+
+    /* Modules */
+    "module": "esnext",                                 /* Use ES module system for modern imports/exports. */
+    "moduleResolution": "node",                         /* Use Node's module resolution strategy for imports. */
+    "esModuleInterop": true,                            /* Ensure compatibility with CommonJS modules. */
+    "resolveJsonModule": true,                          /* Allow importing JSON files as modules. */
+
+    /* JavaScript Support */
+    "allowJs": true,                                    /* Allow JavaScript files to be included in the project. */
+    "checkJs": false,                                   /* Disable checking JavaScript files for type errors. */
+
+    /* Emit */
+    "declaration": true,                                /* Generate type declaration files (.d.ts). */
+    "sourceMap": true,                                  /* Create source maps for JavaScript files. */
+    "outDir": "./dist",                                 /* Specify the output directory for compiled files. */
+    "removeComments": true,                             /* Remove comments in the output. */
+
+    /* Interop Constraints */
+    "isolatedModules": true,                            /* Ensure each file is safely transpiled on its own. */
+    "strict": true,                                     /* Enable all strict type-checking options. */
+    "forceConsistentCasingInFileNames": true,            /* Enforce consistent casing in file names. */
+
+    /* Type Checking */
+    "noImplicitAny": true,                              /* Raise errors for expressions with an implied 'any' type. */
+    "strictNullChecks": true,                           /* Enable strict checking for 'null' and 'undefined'. */
+    "noUnusedLocals": true,                             /* Report errors for unused local variables. */
+    "noUnusedParameters": true,                         /* Report errors for unused function parameters. */
+    "noImplicitReturns": true,                          /* Ensure that all code paths in functions return a value. */
+    "noFallthroughCasesInSwitch": true,                 /* Report fall-through cases in switch statements. */
+    "skipLibCheck": true                                 /* Skip type checking of declaration files. */
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
